@@ -8,6 +8,8 @@ public class LoginController {
 
     @GetMapping("/showMyLoginPage")
     public String showHome() {
-        return "plain-login";
+//        return "plain-login";
+
+        return "fancy-login";
     }
 }
