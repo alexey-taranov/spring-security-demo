@@ -26,9 +26,6 @@ public class DemoAppConfig {
 
     private Logger logger = Logger.getLogger(getClass().getName());
 
-
-
-
     //define a bean for viewResolver
     @Bean
     public ViewResolver viewResolver() {
